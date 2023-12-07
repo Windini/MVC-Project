@@ -47,6 +47,6 @@ class Penduduk extends Controller
 	public function delete($id)
 	{
 		$this->model->delete($id);
-		header('location:' . URL . '/peduduk');
+		header('location:' . URL . '/penduduk');
 	}
 }

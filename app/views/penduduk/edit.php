@@ -1,7 +1,7 @@
 <h2>Edit Penduduk</h2>
 
 <form action="<?php echo URL; ?>/penduduk/update" method="post">
-    <input type="hidden" name="id" value="<?php echo $data['row']['penduduk_id']; ?>">
+    <input type="hidden" name="penduduk_id" value="<?php echo $data['row']['penduduk_id']; ?>">
     <table>
         <tr>
             <td>NIK</td>

@@ -66,8 +66,9 @@ class Penduduk extends Model
             $alamat_penduduk = $_POST['alamat_penduduk'];
             $penduduk_id = $_POST['penduduk_id'];
 
+
             /*if (!empty($password)) {*/
-                  $sql = "UPDATE tb_users
+                  $sql = "UPDATE tb_penduduk
                   SET nik=:nik, nama=:nama, jenis_kelamin=:jenis_kelamin, nomor_hp=:nomor_hp, alamat_penduduk=:alamat_penduduk
                   WHERE penduduk_id=:penduduk_id";
             /*} else {
