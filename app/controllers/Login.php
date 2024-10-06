@@ -17,7 +17,7 @@ class Login extends Controller
 
      public function index()
      {
-          $this->guest('login/index');
+          $this->login('login/index');
      }
 
      public function proses()

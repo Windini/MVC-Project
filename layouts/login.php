@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Suendri">
-	<title>Pemrograman Berbasis Web Lanjutan | Project11</title>
+	<title>Windini-2023</title>
 
 	<link rel="shortcut icon" href="<?php echo AST; ?>/img/favicon.ico" type="image/x-icon">
 	<style>
